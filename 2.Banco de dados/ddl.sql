@@ -1,11 +1,8 @@
-CREATE DATABASE super_heroi;
-
-use super_heroi;
-
-CREATE TABLE tb_super_heroi(
-	id_super_heroi	int primary key auto_increment,
-    nm_super_heroi		varchar(100),
-    ds_super_poder		varchar(200),
-    bt_voa				boolean
+create  table tb_super_heroi (
+	id_super_heoir 		int primary key auto_increment,
+	nm_super_heroi 		varchar(100),
+    ds_super_poderes 		varchar(200),
+    bt_voa 				boolean,
+    img_heroi			varchar(200)
     );
     

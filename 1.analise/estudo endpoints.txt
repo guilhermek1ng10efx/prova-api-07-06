@@ -1,0 +1,31 @@
+ GET        /superHeroi
+
+ Response:
+ [
+     {
+         "id": 0,
+         "nome": "",
+         "poderes": "",
+         "imagem": "",
+        "voa": true
+     }
+     
+     ///////////////////////////////////////////////////////
+
+     POST       /superHeroi
+
+     Request Body:
+     {
+         "pNome": "",
+         "pPoderes": "",
+         "pVoa": true
+     }
+
+     ////////////////////////////////////////////////
+     
+     PUT        /superHeroi
+
+     Request Formdata
+     {
+         "imagem": <<binário>>  
+     }
